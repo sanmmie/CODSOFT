@@ -1,0 +1,50 @@
+/* Body styling for the entire html page */
+body {
+  background: url('img/sanmmie.jpg') center/cover no-repeat; /* Background image */
+  font-family: 'Arial', sans-serif; /* Default font family */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the calculator container */
+.container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8); /* Background color for the calculator with a little opacity */
+}
+
+/* Styling for the display input field */
+#display {
+  width: 92%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Styling for the calculator buttons container */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Styling for the calculator buttons */
+.buttons button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for calculator buttons */
+.buttons button:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,55 @@
+<!-- The following code defines the structure of a basic calculator web page deẹeloped by Oluwasanmi Adebowale as part of Task 1 for CodSoft Internship November20 - December20, 2023.-->
+
+<!DOCTYPE html> <!-- Declaration of HTML5 document type -->
+
+<html>
+<head>
+  <title>Basic Calculator</title> <!-- Title of the calculator as a web page displayed in the browser tab -->
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Linking my external CSS stylesheet for styling -->
+</head>
+<body>
+  <div class="container"> <!-- Container div to hold the entire calculator -->
+
+    <!-- Input field for displaying the calculator input and results -->
+    <input type="text" id="display" readonly>
+
+    <div class="buttons"> <!-- Container for the calculator buttons -->
+
+      <!-- Number buttons (1, 2, 3) and operator buttons (+) with corresponding onclick event handlers -->
+      <button onclick="appendToDisplay('1')">1</button>
+      <button onclick="appendToDisplay('2')">2</button>
+      <button onclick="appendToDisplay('3')">3</button>
+      <button onclick="appendToDisplay('+')">+</button>
+
+      <!-- Number buttons (4, 5, 6) and operator buttons (-) with corresponding onclick event handlers -->
+      <button onclick="appendToDisplay('4')">4</button>
+      <button onclick="appendToDisplay('5')">5</button>
+      <button onclick="appendToDisplay('6')">6</button>
+      <button onclick="appendToDisplay('-')">-</button>
+
+      <!-- Number buttons (7, 8, 9) and operator buttons (*) with corresponding onclick event handlers -->
+      <button onclick="appendToDisplay('7')">7</button>
+      <button onclick="appendToDisplay('8')">8</button>
+      <button onclick="appendToDisplay('9')">9</button>
+      <button onclick="appendToDisplay('*')">*</button>
+
+      <!-- Number button (0) and operator buttons (/) with corresponding onclick event handlers -->
+      <button onclick="clearDisplay()">C</button> <!-- Button to clear the display -->
+      <button onclick="appendToDisplay('0')">0</button>
+      <button onclick="calculateResult()">=</button> <!-- Button to calculate the result -->
+      <button onclick="appendToDisplay('/')">/</button>
+
+    </div> <!-- End of buttons container -->
+  </div> <!-- End of calculator container -->
+  <footer>
+    <nav align="center">
+      <a href="https://fb.com/atoluwasanmi/" target="_blank">Oluwasanmi Adebowale</a> |
+      <a href="https://codsoft.in/" target="_blank">CodSoft Internship 2023</a>
+    </nav>
+  </footer>
+  
+
+  <!-- Linking an external JavaScript file for handling the calculator functionality -->
+  <script src="javascript/script.js"></script>
+</body>
+</html>
