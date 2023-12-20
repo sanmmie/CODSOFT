@@ -16,7 +16,7 @@ In this repository, I have a collection of my web development tasks at CodSoft. 
 
 
 ## portfolio
-2. *LEVEL 1: TASK 2*
+1. *LEVEL 1: TASK 2*
 
 I created a personal portfolio using CSS and HTML. I have the following sections
 Header Section: I added my name at the top.
@@ -43,4 +43,4 @@ I created a basic calculator using CSS, HTML, and JavaScript, I implemented an i
 
 
 
-&copy Oluwasanmi Adebowale | CodSoft Intern 2023.
+&copy; Oluwasanmi Adebowale | CodSoft Intern 2023.
