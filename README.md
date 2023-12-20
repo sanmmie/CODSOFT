@@ -9,7 +9,7 @@ This is my CodSoft Tasks showcasing the web development projects I have worked o
 - [Portfolio](#portfolio)
 - [Basic Calculator](#calculator)
 
-## About
+## about
 In this repository, I have a collection of web development projects that I have completed during my CodSoft internship. These projects demonstrate my skills and experience in front-end and back-end development.
 
 
