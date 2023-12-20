@@ -15,6 +15,7 @@ In this repository, I have a collection of web development projects that I have 
 
 ## portfolio
 2. *LEVEL 1: TASK 2*
+
 Creating a personal portfolio using CSS and HTML is a popular beginner web developmentproject.
 Header Section: Add your name or a logo at the top.
 Optionally, include a brief introduction or tagline.
